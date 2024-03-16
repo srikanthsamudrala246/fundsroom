@@ -1,0 +1,23 @@
+.generate-bill{
+    position: relative;
+    top: 60px;
+    height: calc(100dvh - 60px);
+    background-color: transparent;
+}
+.generate-bill-block{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    position: relative;
+}
+.bill-label{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.767);
+}
+.bill-amount{
+    font-size: 28px;
+    font-weight: 600;
+}

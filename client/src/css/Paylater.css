@@ -1,0 +1,64 @@
+.paylater{
+    position: relative;
+    top: 60px;
+    height: calc(100dvh - 60px);
+    background-color: transparent;
+}
+.paylater-block{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+}
+.pay-title{
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+.pay-title::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 40px;
+    height: 3px;
+    width: 30px;
+    background-color: #4070f4;
+    border-radius: 25px;
+}
+.paylater-block{
+    gap: 40px;
+}
+.pay-main{
+    margin-top: 30px;
+    gap: 40px;
+}
+.credit-label{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.767);
+}
+.credit-amount{
+    font-size: 28px;
+    font-weight: 600;
+}
+.pay-button{
+    background-color: #265df2;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.pay-amount{
+    font-size: 18px;
+    font-weight: 600;
+}
+.pay-hover:hover{
+    transition: .2s transform ease-in-out;
+    transform: scale(1.08);
+}

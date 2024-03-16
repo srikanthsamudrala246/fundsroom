@@ -1,0 +1,14 @@
+.main{
+    position: relative;
+    top: 60px;
+    height: calc(100dvh - 60px);
+    background-color: transparent;
+}
+.main-block{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    gap: 20px;
+}

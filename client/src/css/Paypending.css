@@ -1,0 +1,45 @@
+.pay-pending{
+    position: relative;
+    top: 60px;
+    height: calc(100dvh - 60px);
+    background-color: transparent;
+}
+.pay-pending-block{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+}
+.pending-button{
+    background-color: #265df2;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 25px;
+    gap: 7px;
+}
+.view-due{
+    gap: 10px;
+}
+.pending-label{
+    font-size: 18px;
+    font-weight: 500;
+}
+.pending-button strong{
+    color: white;
+}
+.pending-due{
+    font-size: 28px;
+    font-weight: 600;
+}
+.pay-hover:hover{
+    transition: .2s transform ease-in-out;
+    transform: scale(1.08);
+}
